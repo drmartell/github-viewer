@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { selectUserDetails, isUserLoading } from '../selectors/userSelector';
-import { searchSelector, isSearching } from '../selectors/searchSelector';
+import { isSearching } from '../selectors/searchSelector';
 import Loading from './Loading';
 
 const UserSection = () => {

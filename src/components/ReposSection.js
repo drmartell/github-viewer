@@ -8,8 +8,8 @@ const ReposSection = () => {
   const allRepos = useSelector(selectRepos);
 
   if(loading || allRepos.length === 0) return <Loading />;
-
-  const repoElements = allRepos.map((repo, i) => <li key={i}>{repo}</li>);
+  console.log(allRepos);
+  const repoElements = allRepos.map((repo, i) => <li key={i}>{JSON.stringify(repo)}</li>);
 
   return (
     <section>

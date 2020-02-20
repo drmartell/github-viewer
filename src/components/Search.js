@@ -22,7 +22,7 @@ const Search = () => {
     </form>
 
     <UserSection />
-    {/* <ReposSection /> */}
+    <ReposSection />
   </>;
 };
 

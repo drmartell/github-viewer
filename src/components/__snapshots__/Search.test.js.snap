@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search component renders Search 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Search>
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        name="search"
+        onChange={[Function]}
+        type="text"
+      />
+      <button>
+        Search
+      </button>
+    </form>
+    <UserSection />
+    <ReposSection>
+      <Loading>
+        <img
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/2a6dae53616869.593a85ce553c4.gif"
+          style={
+            Object {
+              "display": "block",
+              "height": "auto",
+              "margin": "auto",
+              "width": "10vw",
+            }
+          }
+        />
+      </Loading>
+    </ReposSection>
+  </Search>
+</Provider>
+`;

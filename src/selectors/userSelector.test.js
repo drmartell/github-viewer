@@ -12,7 +12,7 @@ describe('user selectors', () => {
   it('selects the user details state', () => {
     const state = {
       user: {
-        details: {
+        user: {
           'login': 'john',
           'id': 1668,
           'node_id': 'MDQ6VXNlcjE2Njg=',
